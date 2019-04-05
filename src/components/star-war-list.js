@@ -2,18 +2,18 @@ import React from 'react'
 
 const StarWarList = ({ person }) => (
   person ? (
-      <table class="ui celled table">
+    <table>
       <thead>
         <tr>
-          <th>Name</th>
-          <th>Height</th>
-        </tr>
+            <th>Name</th>
+            <th>Height</th>
+          </tr>
       </thead>
       <tbody>
         <tr>
-          <td>{person.name}</td>
-          <td>{person.height}</td>
-        </tr>
+            <td>{person.name}</td>
+            <td>{person.height}</td>
+          </tr>
       </tbody>
     </table>
   ) : null

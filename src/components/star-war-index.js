@@ -18,7 +18,7 @@ export default class StarWarIndex extends Component {
   render() {
   return (
     <div>
-    <div className="star-war-display" style={{ display: "flex", justifyContent: "center", margin: '40px' }}>
+    <div>
       <SearchBar onFormSubmit={this.onFormSubmit} />
     </div>
     <StarWarList person={this.state.person} />

@@ -23,8 +23,6 @@ module.exports = {
           loader: 'style-loader'
         }, {
           loader: 'css-loader'
-        }, {
-          loader: 'sass-loader'
         }],
    	  }
     ]
@@ -33,6 +31,6 @@ module.exports = {
     new HtmlWebPackPlugin({
       template: 'index.html'
     }),
-    new CleanWebpackPlugin(),
+    new CleanWebpackPlugin()
   ]
 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 const StarWarList = ({ person }) => (
   person ? (
-    <table>
+    <table className="ui celled table">
       <thead>
         <tr>
             <th>Name</th>

@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <HashRouter>
         <Header />
-        <div>
+        <div style={{ display: "flex", justifyContent: "center", maxWidth: '500px', padding: '40px' }}>
           <Route path="/" exact component={StarWarIndex} />
           <Route path="/comment" exact component={CommentIndex} />
         </div>
